@@ -318,23 +318,23 @@ If you want a deeper readiness check later, add a separate endpoint such as `/re
 Copy-ready TanStack Start example:
 
 ```tsx
-import { createFileRoute } from '@tanstack/react-router'
+import { createFileRoute } from "@tanstack/react-router";
 
-export const Route = createFileRoute('/healthz')({
+export const Route = createFileRoute("/healthz")({
   server: {
     handlers: {
       GET: async () => {
-        return new Response('ok', {
+        return new Response("ok", {
           status: 200,
           headers: {
-            'content-type': 'text/plain; charset=utf-8',
-            'cache-control': 'no-store',
+            "content-type": "text/plain; charset=utf-8",
+            "cache-control": "no-store",
           },
-        })
+        });
       },
     },
   },
-})
+});
 ```
 
 ## WinSW Service Setup
