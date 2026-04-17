@@ -12,24 +12,24 @@ The core model is:
 - Switch a `current` junction during deployment.
 - Keep a `previous` junction for rollback.
 
-## Contents
+## Table of Contents
 
-1. Recommended Architecture
-2. Prerequisites
-3. Node Version Strategy
-4. Folder Structure
-5. Build Artifact Strategy
-6. First-Time Server Setup
-7. PowerShell Smoke Test
-8. WinSW Service Setup
-9. IIS Reverse Proxy And Windows Authentication
-10. Security Hardening
-11. PowerShell Scripts
-12. Release, Update, And Rollback Flow
-13. Database Migration Strategy
-14. App-Side SSO Bridge
-15. Operations Checklist
-16. Troubleshooting
+- [Recommended Architecture](#recommended-architecture)
+- [Prerequisites](#prerequisites)
+- [Node Version Strategy](#node-version-strategy)
+- [Folder Structure](#folder-structure)
+- [Build Artifact Strategy](#build-artifact-strategy)
+- [First-Time Server Setup](#first-time-server-setup)
+- [PowerShell Smoke Test](#powershell-smoke-test)
+- [WinSW Service Setup](#winsw-service-setup)
+- [IIS Reverse Proxy And Windows Authentication](#iis-reverse-proxy-and-windows-authentication)
+- [Security Hardening](#security-hardening)
+- [PowerShell Scripts](#powershell-scripts)
+- [Release, Update, And Rollback Flow](#release-update-and-rollback-flow)
+- [Database Migration Strategy](#database-migration-strategy)
+- [App-Side SSO Bridge](#app-side-sso-bridge)
+- [Operations Checklist](#operations-checklist)
+- [Troubleshooting](#troubleshooting)
 
 ## Recommended Architecture
 
